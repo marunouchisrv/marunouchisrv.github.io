@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica;
+}
+
+header {
+    background-image: url("../pattern.jpeg");
+    font-family: Helvetica;
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.section1 {
+    background-color: mediumspringgreen;
+    width: 100%;
+    margin: auto;
+
+}
+
+.section2 {
+    background-color: lightcoral;
+    width: 100%;
+    margin: auto;
+
+}
+
+.section3 {
+    background-color: skyblue;
+    width: 100%;
+    margin: auto;
+
+}
+
+h4 {
+    font-color: white;
+}
