@@ -16,7 +16,7 @@ header {
     background-color: mediumspringgreen;
     width: 100%;
     margin: auto;
-    color: white;
+    color: #FFF;
 
 }
 
@@ -24,7 +24,7 @@ header {
     background-color: lightcoral;
     width: 100%;
     margin: auto;
-    color: white;
+    color: #FFF;
 
 }
 
@@ -32,15 +32,15 @@ header {
     background-color: skyblue;
     width: 100%;
     margin: auto;
-    color: white;
+    color: #FFF;
 
 }
 
-#bluetext {
+.bluetext {
     font-weight: bold;
     color: blue;
 }
 
 h2 {
-    color: white;
+    color: #FFF;
 }
