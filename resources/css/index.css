@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #D9FCF0;
+    D9FCF0
+
+}
+
+.name {
+    font-family: "Proza Libre", sans-serif;
+    display: inline-flex;
+    
+}
+
+header {
+    background-color: #0D8F5F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+
+}
+
+nav {
+    display: inline-flex;
+    justify-content: flex-end;
+
+}
+
+ul {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    
+}
+
+#aboutme {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    
+    
+}
+
+.aboutmetext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    background-color: #D548FA;
+    padding: 0.2em;
+    color: white;
+    border-radius: 2em;
+
+
+
+}
+.aboutmetext p {
+    display: block;
+    color: white;
+}
+
+.aboutmepicture {
+    display: inline-flex;
+    width: 35%;
+    padding-top: 1em;
+    padding-right: 2em;
+
+}
