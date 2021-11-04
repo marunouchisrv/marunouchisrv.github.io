@@ -2,16 +2,19 @@
 html {
     scroll-behavior: smooth;
 }
+
+
 body {
     font-family: "Open Sans", sans-serif;
     background-color: #D9FCF0;
-    D9FCF0
+    
 
 }
 
 .name {
     font-family: "Proza Libre", sans-serif;
     display: inline-flex;
+    padding-left: 1em;
     
 }
 
@@ -29,6 +32,7 @@ header {
 nav {
     display: inline-flex;
     justify-content: flex-end;
+    padding-right: 1em;
 
 }
 
@@ -54,7 +58,8 @@ li {
     display: flex;
     justify-content: space-between;
     padding-top: 1em;
-    
+    margin-top: 1em;
+    flex-wrap: wrap;
     
 }
 
@@ -62,23 +67,141 @@ li {
     display: flex;
     flex-wrap: wrap;
     width: 40%;
-    background-color: #D548FA;
+    background-color: #57DEAC;
     padding: 0.2em;
-    color: white;
+    color: black;
     border-radius: 2em;
+    border: 3px solid white;
 
 
 
 }
 .aboutmetext p {
     display: block;
-    color: white;
+    color: black;
 }
 
 .aboutmepicture {
     display: inline-flex;
-    width: 35%;
+    width: 50%;
+    height: 100%;
     padding-top: 1em;
     padding-right: 2em;
+
+}
+
+#projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#projects h2 {
+    background-color: #57DEAC;
+    color: black;
+    border-radius: 2em;
+    margin-top: 1em;
+    width: 100%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+}
+
+.project-container {
+    display: inline-flex;
+    background-color: #57DEAC;
+    color: black;
+    border-radius: 2em;
+    margin-top: 0.2em;
+    width: 40%;
+    padding: 1em 1em 1em 1em;
+    border: 3px solid white;
+    flex-wrap: wrap;
+
+}
+
+#skills {
+    display: flex;
+    width: 100%;
+    background-color: #DEB040;
+    color: black;
+    border-radius: 2em;
+    border: 3px solid white;
+    align-content: center;
+    align-items: center;
+    margin-top: 1em;
+
+}
+
+#skills h2 {
+    display: flex;
+
+
+    padding-left: 1em;
+}
+
+.skills-container {
+    display: inline-flex;
+    font-size: 2em;
+    width: 100%;
+
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+#contact {
+    display: flex;
+    width: 50%;
+    background-color: #DEB040;
+    color: black;
+    border-radius: 2em;
+    border: 3px solid white;
+    position: relative;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+#contact h2 {
+    display: flex;
+    padding-left: 1em;    
+}
+
+.contact-container {
+    display: inline-flex;
+    font-size: 2em;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 1em;
+
+}
+
+i {
+    transition: font-size 0.5s ease-in;
+}
+
+i:hover {
+    font-size: 1.4em;
+}
+
+@media only screen and (max-width: 700px) {
+    .aboutmetext {
+        width: 100%;
+    }
+    .aboutmepicture {
+        width: 100%;
+    }
+    .skills-container {
+        width: 100%;
+    }
+    .contact-container {
+        width: 100%;
+    }
+    .project-container {
+        width: 100%;
+    }
 
 }
